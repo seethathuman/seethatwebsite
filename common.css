@@ -1,27 +1,38 @@
 body {
     background-color: #F0F7F7;
-    font-family: "Verdana", sans-serif;
-    font-size: 2vmin;
-    margin: 1%;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 100%;
     padding: 0;
+    margin: 0;
 }
-
+h1, h2, h3, h4, p{
+    font-weight: 300;
+}
 header {
+    font-color: white;
     background-color: #099EEE;
     color: white;
-    padding: 0vmin 0.5vmin;
+    padding: 0 0.2em;
     margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+#webname {
+    font-weight: 300;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
 .logo {
     display:flex;
     align-items: center;
     font-size: 1.5em;
     font-weight: bold;
     margin: 0.15em;
+    text-decoration: none;
+    color: white
 }
 #logo {
     width: 1.1em;
