@@ -24,6 +24,8 @@ header {
     font-size: 100%;
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    color: white;
 }
 .logo {
     display:flex;
@@ -32,7 +34,7 @@ header {
     font-weight: bold;
     margin: 0.15em;
     text-decoration: none;
-    color: white
+    color: white;
 }
 #logo {
     width: 1.1em;
