@@ -1,0 +1,41 @@
+body {
+    background-color: #F0F7F7;
+    font-family: "Verdana", sans-serif;
+    font-size: 2vmin;
+    margin: 1%;
+    padding: 0;
+}
+
+header {
+    background-color: #099EEE;
+    color: white;
+    padding: 0vmin 0.5vmin;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display:flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.15em;
+}
+#logo {
+    width: 1.1em;
+    margin: 0.15em;
+    height: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
