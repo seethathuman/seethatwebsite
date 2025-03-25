@@ -1,0 +1,5 @@
+.item {
+    color: #444;
+    display: flex;
+    align-items: center;
+}

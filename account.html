@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Account</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="accounts.css">
+    <link rel="stylesheet" href="alert.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="header.js"></script>
+    <script src="alert.js"></script>
+    <script src="users.js"></script>
+</head>
+<header>
+    <a class="logo" href="index.html">
+        <div><img alt='logo' src='icon.png' id="logo"></div>
+        <p id="webname">SeeThatWebsite</p>
+    </a>
+    <nav>
+        <a href="login.html">
+            <span id="username">lorem ipsum</span>
+        </a>
+        <div class="dropdown">
+            <button class="dropbtn" id="dropdownButton">Menu</button>
+            <div class="dropdown-content" id="dropdownContent">
+                <a href="index.html">Home</a>
+                <a href="login.html">Account</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+    <h1>Account Management</h1>
+    <div class="item">
+        <h2>Log Out</h2>
+        <button id="logoutbtn">Log Out</button>
+    </div>
+    <div class="item">
+        <h2>Delete Account</h2>
+        <button id="deletebtn">Delete Account</button>
+    </div>
+    <div class="item">
+        <h2>Change Password</h2>
+        <button id="changebtn">Change Password</button>
+    </div>
+
+    <div id="alertBox" class="alert-box">
+        <div class="alert-content">
+            <p id="alertText">Are you sure you want to proceed?</p>
+            <button id="confirmBtn" onclick="confirmAction()">Yes</button>
+            <button id="cancelBtn" onclick="closeAlert()">No</button>
+        </div>
+    </div>
+
+</body>
+<script>
+    if (!getCookie('username')) {
+        window.location.replace("login.html");
+    }
+</script>
+</html>

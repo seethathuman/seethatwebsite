@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login/Register</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="common.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="header.js"></script>
+    <script src="users.js"></script>
+</head>
+<header>
+    <a class="logo" href="index.html">
+        <div><img alt='logo' src='icon.png' id="logo"></div>
+        <p id="webname">SeeThatWebsite</p>
+    </a>
+    <nav>
+        <a href="login.html">
+            <span id="username">lorem ipsum</span>
+        </a>
+        <div class="dropdown">
+            <button class="dropbtn" id="dropdownButton">Menu</button>
+            <div class="dropdown-content" id="dropdownContent">
+                <a href="index.html">Home</a>
+                <a href="login.html">Account</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+    <h1>Account Management</h1>
+
+    <h2>Create Account</h2>
+    <form id="registerForm">
+        <input type="text" placeholder="Username" name="username" required>
+        <input type="password" placeholder="Password" name="password" required>
+        <button type="submit">Register</button>
+    </form>
+
+    <h2>Login</h2>
+    <form id="loginForm">
+        <input type="text" placeholder="Username" name="username" required>
+        <input type="password" placeholder="Password" name="password" required>
+        <button type="submit">Login</button>
+    </form>
+</body>
+<script>
+    if (getCookie('username')) {
+        window.location.replace("account.html");
+    }
+</script>
+</html>

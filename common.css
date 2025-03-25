@@ -1,0 +1,116 @@
+body {
+    background-color: #F0F7F7;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, p, button, input{
+    font-weight: 300;
+    padding: 0 0.5%;
+    margin: 1% 1%;
+}
+
+header {
+    background-color: #099EEE;
+    color: white;
+    padding: 0 0.5em;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#webname {
+    font-weight: 300;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.15em;
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    width: 1.1em;
+    margin: 0.15em;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-right: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+    font-size: 1.1em;
+}
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #099EEE;
+    color: white;
+    padding: 0.6em;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 6.25em;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 0.5em;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    text-decoration: underline;
+}
+#username {
+    font-weight: 300;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: #d2d2d2;
+    color: #222;
+    border: 1px solid #b0b0b0;
+    padding: 0.3em 0.6em;
+    border-radius: 8px;
+    cursor: pointer;
+}
